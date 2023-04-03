@@ -1,11 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 import "./HomeScreen.css";
-import Banner from "./Banner";
-import requests from "./Requests"
-import Row from "./Row";
+import Banner from "../Banner";
+import requests from "../Requests"
+import Row from "../Row";
 
 const HomeScreen = () => {
+
   return (
     <div className="homeScreen">
       <Navbar />
